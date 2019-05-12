@@ -1,0 +1,34 @@
+黄金装备以及传说装备出处
+================================
+
+
+黄金装备
+--------------------------------
+1. Act1,2,3的最终Boss固定掉落一件符合其等级的黄金装备. 可以通关后反复刷.
+2. 总Boss冥界之主掉落.
+3. 地图工坊的地下城最终Boss有大概率掉落黄金装备.
+
+
+传说装备
+--------------------------------
+1. Act1,2,3的最终Boss小概率掉落一件传说装备. 可以通关后反复刷.
+2. 世界随机掉落
+
+
+黄金珠宝
+--------------------------------
+1. 眼睛类珠宝由Boss掉落.
+2. 骷髅类珠宝由地图工坊开箱子掉落.
+
+
+相关控制台
+--------------------------------
+
+- Act1, 水源神殿最终Boss风暴熊: ``dungeon WELLSPRINGTEMPLE``
+- Act1, 戒林神庙最终Boss大摄政王: ``dungeon WATCHWEALDTEMPLE``
+- Act2, 蝎狮巢穴最终Boss蝎狮: ``dungeon STYGIANAERIE``
+- Act2, 失落的宝库最终Boss技师: ``dungeon FORSAKENVAULTS``
+- Act2, 裂痕要塞最终Boss围城守护者: ``dungeon RIFTKEEP``
+- Act3, 废料工厂最终Boss肿胀之牙: ``dungeon SCRAPWORKS``
+- Act3, 战争熔炉最终Boss战争泰坦: ``dungeon WARFORGE``
+- Act3, 残破矿井最终Boss炼金术士: ``dungeon DWARVENLABS``
