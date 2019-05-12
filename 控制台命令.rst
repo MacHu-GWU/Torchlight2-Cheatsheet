@@ -23,6 +23,7 @@ Torchlight II Console Command
 - ``ascend``: 移动到下一层地下城入口处.
 - ``descend``: 移动到上一层地下城入口处.
 - ``restartlevel``: 当前层数重置.
+- ``dungeon <name>``: 进你想进的地下城.
 
 
 属性技能相关
@@ -117,8 +118,6 @@ Torchlight II Console Command
 - ``socketable``: 列出所有宝石的ID
 - ``socketable <gem_id>,<count>``: 添加 <count> 枚宝石, 该命令等价于 ``item <gem_id>,<count>``
 
-添加
-
 
 添加技能
 ------------------------
@@ -126,38 +125,40 @@ Torchlight II Console Command
 - ``skill <name>/<index>``: 如果只打skill, 就是显示技能列表, 加上名字或者编号就是学会此技能.
 - ``skilltest``: 技能测试, 能让你使出其他职业的技能.
 
+
 刷怪
-
-spawnclass spawnclassName(要刷新的怪的类型),count,level(等级) 刷新怪,只打spawnclass则显示所有怪物类别,加了后面么就是指定怪物类型,数量,等级,如果输入的等级为0或者负数,则以当前所在的层数为等级
-
-monster index,count 和上一个类似
-
-monster monsterName,count 和上一个类似
-
-dungeon dungeonName 进你想进的地牢
+------------------------
+- ``spawnclass``: 列出所有怪物
+- ``spawnclass <name>,<count>,<level>``: 要刷新的怪的类型, 数量, 等级. 如果输入的等级为0或者负数, 则以当前所在的层数为等级.
+- ``monster <index>/<name>,<count>``: 和上一个类似
 
 
 附魔师
 ------------------------
 
-- ``enchanter 0``: 物品附魔 (毒素)
 - ``enchanter 1``: 物品附魔 (普通)
 - ``enchanter 2``: 物品附魔 (普通)
 - ``enchanter 3``: 物品附魔 (普通)
-- ``enchanter 4``: 附魔独特技能 (造成XX闪电伤害X秒, 等等)
 - ``enchanter 5``: 物品附魔 (普通)
+- ``enchanter 17``: 物品附魔 (普通)
+- ``enchanter 4``: 附魔独特技能 (造成XX闪电伤害X秒, 等等)
+
 - ``enchanter 6``: 解除附魔
+
+- ``enchanter 0``: 物品附魔 (毒素)
+
 - ``enchanter 7``: 附魔 (闪电)
 - ``enchanter 8``: 附魔 (火焰)
-- ``enchanter 9``: 大宗师级附魔师 (普通) (**最高级附魔**)
 - ``enchanter 10``: 附魔 (冰霜)
+- ``enchanter 14``: 附魔 (毒素)
+
+- ``enchanter 9``: 大宗师级附魔师 (普通) (**最高级附魔**)
 - ``enchanter 11``: 附魔 (幸运)
 - ``enchanter 12``: 大师级附魔师 (普通)
 - ``enchanter 13``: 大师级附魔师 (普通)
-- ``enchanter 14``: 附魔 (毒素)
 - ``enchanter 15``: 打孔大师 (两孔) (**最高级附魔**)
-- ``enchanter 16``: 附魔 (+全属性)
-- ``enchanter 17``: 物品附魔 (普通)
+- ``enchanter 16``: 附魔 (+全属性) (**最高级附魔**)
+
 
 
 人物动作表情
