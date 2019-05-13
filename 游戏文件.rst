@@ -1,7 +1,0 @@
-火炬之光2游戏文件解析
-========================
-Steam 版火炬之光游戏目录: C:\Program Files\Steam\steamapps\common\Torchlight II
-游戏存储文件: C:\Users\username\OneDrive\Documents\my games\runic games\torchlight 2
-共享存储箱中的物品文件: C:\Users\username\OneDrive\Documents\my games\runic games\torchlight 2\save\sharedstash.bin
-
-Steam 版火炬之光游戏版本: 1.25.6
